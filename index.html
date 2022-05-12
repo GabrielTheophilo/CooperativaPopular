@@ -56,7 +56,8 @@
           <label for="clienteMensagem">Mensagem</label>
           <textarea id="clienteMensagem" class="form-control" rows="4"></textarea>
         </div>
-        <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+        <button type="button" onclick="submeter()" class="btn btn-dark">Enviar Mensagem</button>
+        <div id="resposta"></div>
       </form>
     </div>
     <div class="col-lg">
@@ -93,7 +94,7 @@
   <script>
     new window.VLibras.Widget('https://vlibras.gov.br/app');
   </script>
-
+  <script src="index.js"></script>
 </body>
 
 </html>
