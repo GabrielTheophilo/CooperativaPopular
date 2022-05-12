@@ -166,6 +166,19 @@ img {
   background: linear-gradient(#8e05f0, #c97eff);
 }
 
+.navbar-item {
+  text-decoration: none;
+  
+}
+
+#img-trabalho{
+  margin-top: 5rem;
+}
+
+#exampleFormControlFile1 {
+  margin: 2rem;
+}
+
 .forms-bg {
   background: #000000;
   color: #ffffff;
