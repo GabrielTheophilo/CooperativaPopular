@@ -55,11 +55,12 @@ img {
 }
 
 .header-menu a {
-  color: #ffffff;
+  color: #ffffff !important;
   display: inline-block;
   padding: 16px 0px;
   font-size: 18px;
   position: relative;
+
 }
 
 .header-menu a:after {
